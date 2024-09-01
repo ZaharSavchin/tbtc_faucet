@@ -5,6 +5,7 @@ from aiogram.client.default import DefaultBotProperties
 from environs import Env
 
 wallet_name = 'wallet'
+pause_time = 120
 
 @dataclass
 class TgBot:
