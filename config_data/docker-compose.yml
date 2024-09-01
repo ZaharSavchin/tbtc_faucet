@@ -1,0 +1,10 @@
+version: "3"
+services:
+    worker:
+        image: zahar382/tbtc_faucet
+        environment:
+        - BOT_TOKEN=7521226492:AAHO1v-tH0qCwwoZvIeuALf3ls7hDXZN
+        - ADMIN_ID=7631575620
+        - DROP_AMOUNT=20000
+        - FEE=10000
+        - NETWORK=testnet
